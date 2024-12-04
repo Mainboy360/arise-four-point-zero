@@ -1,0 +1,70 @@
+/* Set height to 100% for body and html to enable the background image to cover the whole page: */
+body, html {
+  height: 100%
+}
+
+.bgimg {
+  /* Background image */
+  background-image: url('./images/ai-ballon.png');
+  /* Full-screen */
+  height: 100%;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 30px;
+}
+
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 5px;
+  left: 100px;
+  text-align: center;
+  color: black;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 110;
+  left: 100px;
+  top: 100px;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the <hr> element */
+hr {
+  margin: auto;
+  width: 70%;
+  border-color: yellow;
+}
+
+
+.arisethree {
+  background: #1F509A;
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid #1F509A;
+  border-radius: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
